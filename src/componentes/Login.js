@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 
-import Carousel from 'react-bootstrap/Carousel'
+import Carousel from 'react-bootstrap/Carousel';
+import Primeiro from './img1/primeiro.png'
 
 class Login extends Component {
   render() {
@@ -10,7 +11,7 @@ class Login extends Component {
     <Carousel.Item>
       <img
         className="d-block w-100"
-        src="img1/2546_Continental_Site-Novo-Acontece_Banner_PETS-1.png"
+        src={Primeiro}
         alt="First slide"
       />
       <Carousel.Caption>
@@ -18,13 +19,13 @@ class Login extends Component {
         <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
       </Carousel.Caption>
     </Carousel.Item>
+
     <Carousel.Item>
       <img
         className="d-block w-100"
         src="http://continentalshopping.com.br/wp-content/uploads/2017/07/2546_Continental_Site-Novo-Acontece_Banner_PETS-1.png"
         alt="Third slide"
       />
-  
       <Carousel.Caption>
         <h3>Second slide label</h3>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
