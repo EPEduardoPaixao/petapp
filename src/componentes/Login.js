@@ -10,7 +10,7 @@ class Login extends Component {
     <Carousel.Item>
       <img
         className="d-block w-100"
-        src="holder.js/800x400?text=First slide&bg=373940"
+        src="img1/2546_Continental_Site-Novo-Acontece_Banner_PETS-1.png"
         alt="First slide"
       />
       <Carousel.Caption>
@@ -33,7 +33,7 @@ class Login extends Component {
     <Carousel.Item>
       <img
         className="d-block w-100"
-        src=""
+        src="img1/2546_Continental_Site-Novo-Acontece_Banner_PETS-1.png"
         alt="Third slide"
       />
   
