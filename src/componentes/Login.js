@@ -14,7 +14,7 @@ class Login extends Component {
       <img
         className="d-block w-100"
         src={Primeiro}
-        alt="First slide"
+        alt="Primeiro slide"
       />
     </Carousel.Item>
 
